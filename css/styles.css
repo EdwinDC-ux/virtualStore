@@ -1,0 +1,8 @@
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+.divMensaje {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+}
