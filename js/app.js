@@ -16,11 +16,21 @@ nuevoBoton.addEventListener('click', (evento) => {
 })
 
 const blusaNaranja = document.querySelector('#naranja')
-const blusaRojo = document.querySelector('#roja')
-const blusaMorado = document.querySelector('#morado')
-let imagenVestido = document.querySelector('#imgBlouse')
+const blusaRoja = document.querySelector('#roja')
+const blusaMorada = document.querySelector('#morada')
+let imagenBlusa = document.querySelector('#imgBlouse')
 
-blusaRojo.addEventListener('click', (evento) => {
+blusaRoja.addEventListener('click', (evento) => {
     evento.stopPropagation()
-    imagenVestido.src = "images/fashion3.jpg"
+    imagenBlusa.src = "images/fashion3.jpg"
+})
+
+blusaNaranja.addEventListener('click', (evento) => {
+    evento.stopPropagation()
+    imagenBlusa.src = "images/fashion1.jpg"
+})
+
+blusaMorada.addEventListener('click', (evento) => {
+    evento.stopPropagation()
+    imagenBlusa.src = "images/fashion2.jpg"
 })
